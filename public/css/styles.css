@@ -103,7 +103,8 @@ h6 {
   width: 60%;
   transform: rotate(10deg);
   position: absolute;
-  right: 40%;
+  right: 20%;
+  border-radius: 100%;
 }
 /* Feature section */
 #features {
@@ -132,6 +133,11 @@ h6 {
 .team-box {
   text-align: center;
   padding: 5%;
+}
+.company-image {
+  width: 100%;
+  border-radius: 30%;
+  margin: 5px;
 }
 
 .icon {
@@ -189,6 +195,14 @@ h6 {
     transform: rotate(0);
   }
 }
+@media (max-width:412){
+  .cta-heading{
+    font-family: "Montserrat-Black";
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  
+}
 /* Testimonial section */
 #testimonials {
   text-align: center;
@@ -213,71 +227,7 @@ h6 {
   border-radius: 100%;
   margin: 20px;
 }
-.company-image {
-  width: 60%;
-  border-radius: 30%;
-  margin: 10px;
-}
 
 .carousel-item {
   padding: 10% 15%;
 }
-/* client review section */
-.feedback{
-  padding: 110px 85px;
-}
-
-.feedback .customers{
-  margin-top: 50px;
-  display: flex;
-  gap: 40px;
-}
-
-.feedback .customers .item{
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  border: 2px solid #006b6a;
-  border-radius: 10px;
-  padding: 30px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.feedback .customers .item .rating{
-  color: #006b6a;
-  font-size: 22px;
-}
-
-.feedback .customers .item:hover{
-  border-color: #5e3bee;
-}
-
-.feedback .customers .item p{
-  line-height: 22px;
-  font-size: 14px;
-}
-
-.feedback .customers .item .user{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.feedback .customers .item .user img{
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.feedback .customers .item .user h5{
-  font-size: 13px;
-  font-weight: 500;
-  margin-bottom: 3px;
-}
-
-.feedback .customers .item .user p{
-  font-size: 12px;
-}
-/* client review section end */

@@ -14,7 +14,4 @@ router.get("/dashboard",(req,res,next)=>{
 router.get("/blog",(req,res,next)=>{
  res.sendFile(path.join(rootPath,"views","blog.html"));
 });
-router.get("/agrotech",(req,res,next)=>{
- res.sendFile(path.join(rootPath,"views","agrotech.html"));
-});
 module.exports=router;

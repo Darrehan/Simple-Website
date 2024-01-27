@@ -11,7 +11,14 @@
         "image-alt": "off"
       }
     ],
-    "axe/structure": "off"
+    "axe/structure": "off",
+    "axe/parsing": [
+      "default",
+      {
+        "marquee": "off"
+      }
+    ],
+    "no-inline-styles": "off"
   },
   "browserslist": [
     "defaults",

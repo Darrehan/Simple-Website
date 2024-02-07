@@ -135,8 +135,8 @@ h6 {
   padding: 5%;
 }
 .company-image {
-  width: 100%;
-  border-radius: 30%;
+  width: 50%;
+  border-radius: 15%;
   margin: 5px;
 }
 
@@ -195,13 +195,13 @@ h6 {
     transform: rotate(0);
   }
 }
-@media (max-width:412){
+@media (max-width:412 ){
   .cta-heading{
     font-family: "Montserrat-Black";
     font-size: 1.5rem;
     line-height: 1.5;
   }
-  
+
 }
 /* Testimonial section */
 #testimonials {

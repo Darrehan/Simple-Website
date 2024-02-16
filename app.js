@@ -1,3 +1,4 @@
+//Node by default uses commen .js syntax
 const express=require("express");
 const morgan=require("morgan");
 const home=require("./routes/Home.js");

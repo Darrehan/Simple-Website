@@ -1,4 +1,4 @@
-//Node js by default uses commen .js syntax
+//Node js by default uses commen .js syntax buddy 
 const express=require("express");
 const morgan=require("morgan");
 const home=require("./routes/Home.js");
